@@ -1,35 +1,31 @@
 @font-face {
-  font-family: "Inter";
+  font-family: Inter;
   font-style: normal;
   font-weight: 400;
   font-display: swap;
   src: url("./fonts/inter/Inter-Regular.ttf");
 }
-
 @font-face {
-  font-family: "Spectral";
+  font-family: Spectral;
   font-style: normal;
   font-weight: 400;
   font-display: swap;
   src: url("./fonts/spectral/Spectral-Regular.ttf");
 }
-
 @font-face {
-  font-family: "Spectral";
+  font-family: Spectral;
   font-style: italic;
   font-weight: 800;
   font-display: swap;
   src: url("./fonts/spectral/Spectral-ExtraBoldItalic.ttf");
 }
-
 @font-face {
-  font-family: "Spectral";
+  font-family: Spectral;
   font-style: italic;
   font-weight: 300;
   font-display: swap;
   src: url("./fonts/spectral/Spectral-LightItalic.ttf");
 }
-
 .about-me__introduction,
 .quote,
 .quote__text {
@@ -51,6 +47,11 @@
   padding-inline: 100px;
   padding-block: 100px;
 }
+
+h3 {
+  font-size: 2.5rem;
+}
+
 .picture.left::before,
 .picture.right::before {
   content: " ";
@@ -128,11 +129,9 @@ body {
   width: 100%;
   height: 560px;
 }
-
 .w-100 {
   height: 65vh;
 }
-
 @media only screen and (max-width: 767px) {
   .w-100 {
     height: 18vh !important;
@@ -140,18 +139,18 @@ body {
   .picture img {
     height: 300px !important;
   }
+  h3 {
+    font-size: 2rem;
+  }
 }
-
 @media only screen and (max-width: 1440px) {
   .w-100 {
     height: 52vh;
   }
-
   .picture img {
     height: 400px;
   }
 }
-
 #about-me,
 .form-container {
   flex: 2;
@@ -164,7 +163,7 @@ body {
 .about-me__introduction {
   font-weight: 800;
   width: 60%;
-  font-family: "Spectral", sans-serif;
+  font-family: Spectral, sans-serif;
   font-style: italic;
 }
 #about-me p {
