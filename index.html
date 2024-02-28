@@ -7,16 +7,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
+      media="print"
+      onload="this.onload=null;this.removeAttribute('media');"
+      fetchpriority="high"
     />
+
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
+      />
+    </noscript>
     <meta charset="UTF-8" />
 
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
-      async
     ></script>
     <script src="./assets/maugallery.js"></script>
     <script src="./assets/scripts.js"></script>
@@ -26,7 +35,7 @@
       <h3 class="name">Nina Carducci</h3>
       <div class="nav">
         <ul>
-          <li><a href="#about">À propose</a></li>
+          <li><a href="#about">À propos</a></li>
           <li><a href="#gallery">Galerie</a></li>
           <li><a href="#services">Service</a></li>
           <li><a href="#contact">Contact</a></li>
