@@ -5,7 +5,20 @@
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
+        rel="stylesheet"
+        type="text/css"
+      />
+    </noscript>
     <meta charset="UTF-8" />
   </head>
   <body>
@@ -22,7 +35,10 @@
               class="social-link"
               href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
               target="_blank"
-              ><img src="assets/images/instagram.webp" alt="logo instagram"
+              ><img
+                src="assets/images/instagram.webp"
+                alt="logo instagram"
+                loading="lazy"
             /></a>
           </li>
         </ul>
@@ -62,6 +78,7 @@
               src="./assets/images/slider/ryoji-iwata.webp"
               class="d-block w-100"
               alt="photo ryoji iwata"
+              loading="lazy"
             />
           </div>
           <div class="carousel-item">
@@ -69,6 +86,7 @@
               src="./assets/images/slider/nicholas-green.webp"
               class="d-block w-100"
               alt="photo nicholas green"
+              loading="lazy"
             />
           </div>
           <div class="carousel-item">
@@ -76,6 +94,7 @@
               src="./assets/images/slider/edward-cisneros.webp"
               class="d-block w-100"
               alt="photo edward cisneros"
+              loading="lazy"
             />
           </div>
         </div>
@@ -101,7 +120,7 @@
     </div>
     <div id="about">
       <div class="picture left">
-        <img src="./assets/images/nina.webp" />
+        <img src="./assets/images/nina.webp" loading="lazy" />
       </div>
       <div id="about-me">
         <h3 class="about-me__title">A propos de moi</h3>
@@ -285,11 +304,7 @@
           </form>
         </div>
         <div class="picture right">
-          <img
-            src="./assets/images/camera.webp"
-            alt="image camera"
-            loading="lazy"
-          />
+          <img src="./assets/images/camera.webp" alt="image camera" />
         </div>
       </div>
     </div>
