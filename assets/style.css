@@ -130,7 +130,7 @@ body {
   z-index: 0;
 }
 .picture img {
-  width: 100%;
+  width: 560px;
   height: 560px;
 }
 .w-100 {
@@ -142,6 +142,7 @@ body {
   }
   .picture img {
     height: 300px !important;
+    width: 100%;
   }
   h3 {
     font-size: 2rem;
@@ -153,6 +154,7 @@ body {
   }
   .picture img {
     height: 400px;
+    width: 400px;
   }
 }
 #about-me,
