@@ -139,7 +139,7 @@ body {
   }
   .picture img {
     height: 300px !important;
-    width: 100%;
+    width: 100% !important;
   }
   h3 {
     font-size: 2rem;
