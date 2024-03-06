@@ -272,6 +272,15 @@ form textarea {
   position: absolute;
   right: 0;
 }
+
+.contactInfo {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding-top: 30px;
+  z-index: 10;
+}
+
 form {
   flex-direction: column;
   width: 70%;
@@ -391,5 +400,12 @@ input[type="submit"] {
   }
   .picture {
     width: 80%;
+  }
+
+  .contactInfo {
+    position: relative;
+    z-index: 10;
+    display: block;
+    padding-bottom: 120px;
   }
 }
